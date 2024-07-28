@@ -14,8 +14,8 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.gurl = process.env.GURL || "https://wa.me/2348168855791";
+global.website = process.env.GURL || "https://wa.me/2348168855791";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
 global.devs = "https://t.me/deecee_x";
 global.sudo = process.env.SUDO || "";
@@ -52,7 +52,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
   packname: process.env.PACK_NAME || "A N I T A",
   botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  ownername: process.env.OWNER_NAME || "SILENT",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
